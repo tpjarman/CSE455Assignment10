@@ -1,0 +1,9 @@
+C:\Users\tjarman\Source\Repos\FinalProject\BusinessLoigc\bin\Debug\netstandard2.0\BusinessLogic.deps.json
+C:\Users\tjarman\Source\Repos\FinalProject\BusinessLoigc\bin\Debug\netstandard2.0\BusinessLogic.dll
+C:\Users\tjarman\Source\Repos\FinalProject\BusinessLoigc\bin\Debug\netstandard2.0\BusinessLogic.pdb
+C:\Users\tjarman\Source\Repos\FinalProject\BusinessLoigc\obj\Debug\netstandard2.0\BusinessLogic.csprojAssemblyReference.cache
+C:\Users\tjarman\Source\Repos\FinalProject\BusinessLoigc\obj\Debug\netstandard2.0\BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\tjarman\Source\Repos\FinalProject\BusinessLoigc\obj\Debug\netstandard2.0\BusinessLogic.AssemblyInfoInputs.cache
+C:\Users\tjarman\Source\Repos\FinalProject\BusinessLoigc\obj\Debug\netstandard2.0\BusinessLogic.AssemblyInfo.cs
+C:\Users\tjarman\Source\Repos\FinalProject\BusinessLoigc\obj\Debug\netstandard2.0\BusinessLogic.dll
+C:\Users\tjarman\Source\Repos\FinalProject\BusinessLoigc\obj\Debug\netstandard2.0\BusinessLogic.pdb

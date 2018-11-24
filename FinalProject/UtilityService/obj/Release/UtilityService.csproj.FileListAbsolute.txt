@@ -1,0 +1,15 @@
+C:\Users\tjarman\Source\Repos\FinalProject\UtilityService\bin\UtilityService.dll.config
+C:\Users\tjarman\Source\Repos\FinalProject\UtilityService\bin\UtilityService.dll
+C:\Users\tjarman\Source\Repos\FinalProject\UtilityService\bin\UtilityService.pdb
+C:\Users\tjarman\Source\Repos\FinalProject\UtilityService\bin\Newtonsoft.Json.dll
+C:\Users\tjarman\Source\Repos\FinalProject\UtilityService\bin\System.Net.Http.dll
+C:\Users\tjarman\Source\Repos\FinalProject\UtilityService\bin\System.Security.Cryptography.Algorithms.dll
+C:\Users\tjarman\Source\Repos\FinalProject\UtilityService\bin\System.Security.Cryptography.Encoding.dll
+C:\Users\tjarman\Source\Repos\FinalProject\UtilityService\bin\System.Security.Cryptography.Primitives.dll
+C:\Users\tjarman\Source\Repos\FinalProject\UtilityService\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Users\tjarman\Source\Repos\FinalProject\UtilityService\bin\Newtonsoft.Json.xml
+C:\Users\tjarman\Source\Repos\FinalProject\UtilityService\obj\Release\UtilityService.csprojAssemblyReference.cache
+C:\Users\tjarman\Source\Repos\FinalProject\UtilityService\obj\Release\UtilityService.csproj.CoreCompileInputs.cache
+C:\Users\tjarman\Source\Repos\FinalProject\UtilityService\obj\Release\UtilityService.csproj.CopyComplete
+C:\Users\tjarman\Source\Repos\FinalProject\UtilityService\obj\Release\UtilityService.dll
+C:\Users\tjarman\Source\Repos\FinalProject\UtilityService\obj\Release\UtilityService.pdb

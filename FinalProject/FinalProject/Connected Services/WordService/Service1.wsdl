@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Service1" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://webstrar22.fulton.asu.edu/Page3/Service1.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://webstrar22.fulton.asu.edu/Page3/Service1.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://webstrar22.fulton.asu.edu/Page3/Service1.svc?xsd=xsd2" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IService1_SiteCompareTool_InputMessage">
+    <wsdl:part name="parameters" element="tns:SiteCompareTool" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SiteCompareTool_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SiteCompareToolResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_TopTenContentWords_InputMessage">
+    <wsdl:part name="parameters" element="tns:TopTenContentWords" />
+  </wsdl:message>
+  <wsdl:message name="IService1_TopTenContentWords_OutputMessage">
+    <wsdl:part name="parameters" element="tns:TopTenContentWordsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SentimentAnalysis_InputMessage">
+    <wsdl:part name="parameters" element="tns:SentimentAnalysis" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SentimentAnalysis_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SentimentAnalysisResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_WordFilter_InputMessage">
+    <wsdl:part name="parameters" element="tns:WordFilter" />
+  </wsdl:message>
+  <wsdl:message name="IService1_WordFilter_OutputMessage">
+    <wsdl:part name="parameters" element="tns:WordFilterResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IService1">
+    <wsdl:operation name="SiteCompareTool">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/SiteCompareTool" message="tns:IService1_SiteCompareTool_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/SiteCompareToolResponse" message="tns:IService1_SiteCompareTool_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="TopTenContentWords">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/TopTenContentWords" message="tns:IService1_TopTenContentWords_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/TopTenContentWordsResponse" message="tns:IService1_TopTenContentWords_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SentimentAnalysis">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/SentimentAnalysis" message="tns:IService1_SentimentAnalysis_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/SentimentAnalysisResponse" message="tns:IService1_SentimentAnalysis_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="WordFilter">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/WordFilter" message="tns:IService1_WordFilter_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/WordFilterResponse" message="tns:IService1_WordFilter_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IService1" type="tns:IService1">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SiteCompareTool">
+      <soap:operation soapAction="http://tempuri.org/IService1/SiteCompareTool" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TopTenContentWords">
+      <soap:operation soapAction="http://tempuri.org/IService1/TopTenContentWords" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SentimentAnalysis">
+      <soap:operation soapAction="http://tempuri.org/IService1/SentimentAnalysis" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WordFilter">
+      <soap:operation soapAction="http://tempuri.org/IService1/WordFilter" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service1">
+    <wsdl:port name="BasicHttpBinding_IService1" binding="tns:BasicHttpBinding_IService1">
+      <soap:address location="http://webstrar22.fulton.asu.edu/Page3/Service1.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
